@@ -1,0 +1,37 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  
+  <!-- Browser Window -->
+  <rect x="20" y="40" width="360" height="220" rx="12" fill="white"/>
+  <rect x="20" y="40" width="360" height="30" rx="12" fill="#f1f5f9"/>
+  <circle cx="40" cy="55" r="4" fill="#ff5f57"/>
+  <circle cx="55" cy="55" r="4" fill="#ffbd2e"/>
+  <circle cx="70" cy="55" r="4" fill="#28ca42"/>
+  
+  <!-- Header -->
+  <rect x="30" y="80" width="340" height="25" fill="#6366f1"/>
+  <text x="200" y="97" text-anchor="middle" fill="white" font-size="12" font-weight="bold">AI NewsApp - Live Updates</text>
+  
+  <!-- News Articles -->
+  <rect x="30" y="115" width="160" height="100" fill="#e2e8f0"/>
+  <text x="110" y="170" text-anchor="middle" fill="#64748b" font-size="10">Featured Story</text>
+  
+  <rect x="200" y="115" width="170" height="18" fill="#1e293b"/>
+  <rect x="200" y="138" width="140" height="8" fill="#64748b"/>
+  <rect x="200" y="150" width="120" height="8" fill="#94a3b8"/>
+  <rect x="200" y="162" width="100" height="8" fill="#94a3b8"/>
+  
+  <!-- AI Badge -->
+  <rect x="310" y="83" width="35" height="16" rx="8" fill="#10b981"/>
+  <text x="327.5" y="93" text-anchor="middle" fill="white" font-size="8" font-weight="bold">AI</text>
+  
+  <!-- Bottom Articles -->
+  <rect x="30" y="225" width="340" height="12" fill="#374151"/>
+  <rect x="30" y="242" width="280" height="8" fill="#6b7280"/>
+</svg>
